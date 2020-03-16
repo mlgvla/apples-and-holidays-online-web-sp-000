@@ -98,7 +98,7 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.each do |holiday, supplies|
       if supplies.include?("BBQ")
         bbq_holiday_keys << holiday
-        binding.pry
+      #  binding.pry
       end
     end
   end
@@ -115,4 +115,4 @@ def key_to_string(key)
   return final_string
 end
 
-all_holidays_with_bbq(holiday_supplies)
+#all_holidays_with_bbq(holiday_supplies)
